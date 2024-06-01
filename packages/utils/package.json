@@ -1,0 +1,22 @@
+{
+  "name": "@repo/utils",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "npm run build -- --watch",
+    "publish-packages": "turbo run build lint test && changeset version && changeset publish"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.27.5",
+    "typescript": "latest"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts"
+}

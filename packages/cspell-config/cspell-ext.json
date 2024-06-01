@@ -1,0 +1,53 @@
+{
+  "readonly": true,
+  "allowCompoundWords": true,
+  "dictionaryDefinitions": [
+    {
+      "name": "common",
+      "path": "./common.txt",
+      "description": "Common CSpell dictionary."
+    }
+  ],
+  "dictionaries": [],
+  "languageSettings": [
+    {
+      "languageId": "*",
+      "locale": "*",
+      "includeRegExpList": [],
+      "ignoreRegExpList": [],
+      "patterns": [],
+      "dictionaries": ["common", "ext", "prettier"],
+      "dictionaryDefinitions": []
+    }
+  ],
+  "ignorePaths": [
+    ".github/workflows/**",
+    ".vscode/*.json",
+    "**/.vercel",
+    "**/dist/**",
+    "**/build/**",
+    "**/node_modules/**",
+    "**/public/**",
+    "**/assets/**",
+    "**/CHANGELOG.md",
+    "**/CONTRIBUTORS.md",
+    "**/pnpm-lock.yaml",
+    "**/README.md",
+    "**/tsconfig.tsbuildinfo",
+    "**/.bundle/**",
+    "**/ios/**",
+    "**/android/**",
+    "**/vendor/**",
+    "**/patches/**",
+    "**/storybook-static/**",
+    "**/src-tauri/icons/**",
+    "**/src-tauri/target/**",
+    "**/Cargo.lock",
+    "**/Cargo.toml",
+    "**/coverage/**",
+    "**/stats.html"
+  ],
+  "cache": {
+    "cacheLocation": "./node_modules/.cache/cspell/.cspell-cache"
+  }
+}

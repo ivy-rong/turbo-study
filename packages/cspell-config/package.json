@@ -1,0 +1,16 @@
+{
+  "name": "@repo/cspell-config",
+  "description": "cspell configuration for @repo",
+  "version": "0.0.1",
+  "dependencies": {
+    "typescript": "latest"
+  },
+  "exports": {
+    ".": "./cspell-ext.json",
+    "./cspell": "./cspell-ext.json",
+    "./cspell-ext.json": "./cspell-ext.json"
+  },
+  "peerDependencies": {
+    "cspell": "^8.0.0"
+  }
+}
