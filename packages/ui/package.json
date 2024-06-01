@@ -1,7 +1,7 @@
 {
-  "name": "@repo/ui",
-  "version": "0.0.0",
-  "private": true,
+  "name": "@starry-sky-studio/ui",
+  "version": "1.0.0",
+  "private": false,
   "exports": {
     "./button": "./src/button.tsx",
     "./card": "./src/card.tsx",
@@ -12,8 +12,8 @@
     "generate:component": "turbo gen react-component"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@starry-sky-studio/eslint-config": "workspace:*",
+    "@starry-sky-studio/typescript-config": "workspace:*",
     "@turbo/gen": "^1.12.4",
     "@types/node": "^20.11.24",
     "@types/eslint": "^8.56.5",

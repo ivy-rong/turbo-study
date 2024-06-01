@@ -1,5 +1,5 @@
 ---
-"@repo/utils": minor
+'@starry-sky-studio/utils': minor
 ---
 
 init

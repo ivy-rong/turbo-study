@@ -10,5 +10,5 @@
       "addWords": true
     }
   ],
-  "import": ["@repo/cspell-config"]
+  "import": ["@starry-sky-studio/cspell-config"]
 }

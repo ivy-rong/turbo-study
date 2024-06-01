@@ -1,23 +1,26 @@
 {
   "name": "docs",
-  "version": "1.0.0",
-  "private": true,
+  "version": "1.0.2",
+  "private": false,
   "scripts": {
-    "dev": "next dev --port 3001",
-    "build": "next build",
+    "dev": "next dev --port 3001 ",
+    "build": "next build ",
     "start": "next start",
     "lint": "eslint . --max-warnings 0"
   },
   "dependencies": {
-    "@repo/ui": "workspace:*",
+    "@starry-sky-studio/ui": "workspace:*",
+    "@starry-sky-studio/utils": "workspace:^",
     "next": "^14.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^14.1.1",
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@starry-sky-studio/eslint-config": "workspace:*",
+    "@starry-sky-studio/tailwind-config": "workspace:*",
+    "@starry-sky-studio/typescript-config": "workspace:*",
+    "@starry-sky-studio/cspell-config": "workspace:*",
     "@types/eslint": "^8.56.5",
     "@types/node": "^20.11.24",
     "@types/react": "^18.2.61",

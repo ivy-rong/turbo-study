@@ -1,6 +1,6 @@
 {
-  "name": "@repo/tailwind-config",
-  "version": "1.0.0",
+  "name": "@starry-sky-studio/tailwind-config",
+  "version": "2.0.0",
   "description": "tailwind config",
   "files": [
     "tailwind.config.js"

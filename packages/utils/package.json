@@ -1,6 +1,8 @@
 {
-  "name": "@repo/utils",
-  "version": "0.1.0",
+  "name": "@starry-sky-studio/utils",
+  "version": "1.0.0",
+  "author": "Ivy-rong",
+  "description": "starry-sky-studio/utils",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "dev": "npm run build -- --watch",
@@ -18,5 +20,10 @@
   },
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts"
+  "types": "./dist/index.d.ts",
+  "license": "ISC",
+  "registry-url": "https://registry.npmjs.org/",
+  "publishConfig": {
+    "@Ivyrong:registry": "https://npm.pkg.github.com"
+  }
 }
